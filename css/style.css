@@ -3,7 +3,11 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: arial, sans-serif;
   list-style: none;
+  text-decoration: none;
+  color: #000;
+  border-radius: initial;
 }
 
 /* Classes généralistes pour mise en page */
@@ -21,6 +25,14 @@
   flex-direction: column;
 }
 
+.centercontent{
+  justify-content: center;
+}
+
+.aligncenter{
+  align-items: center;
+}
+
 /* header */
 
 header{
@@ -28,15 +40,29 @@ header{
   justify-content: flex-end;
 }
 
+.misenpage{
+  flex: 1 1 auto;
+}
+
 /* Section du centre de la page */
 
 section{
   flex: 10;
-  justify-content: center;
-  align-items: center;
 }
 
-.centercontainer{}
+#allinclusive{
+  width: 45%;
+  border: solid 1px #d9d9d9;
+  padding: 8px;
+}
+
+.centercontainer{
+  width: 100%;
+}
+
+p a{
+  color: blue;
+}
 
 /* footer */
 
