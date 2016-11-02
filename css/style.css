@@ -1,0 +1,49 @@
+/* Normalisation des propriétés */
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Classes généralistes pour mise en page */
+
+.container{
+  width: 100vw;
+  height: 100vh;
+}
+
+.flexybox{
+  display: flex;
+}
+
+.columnflex{
+  flex-direction: column;
+}
+
+/* header */
+
+header{
+  flex: 1;
+  justify-content: flex-end;
+}
+
+/* Section du centre de la page */
+
+section{
+  flex: 10;
+  justify-content: center;
+  align-items: center;
+}
+
+.centercontainer{}
+
+/* footer */
+
+footer{
+    flex: 1;
+}
+
+footer nav{
+  flex: 1;
+}
